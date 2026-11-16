@@ -102,3 +102,5 @@ try {
   process.stderr.write(`[entry] ${err instanceof Error ? err.message : String(err)}\n`);
   process.exit(1);
 }
+
+// Entry kept as the kit ships it except for this note; the forge itself lives in app.ts.
